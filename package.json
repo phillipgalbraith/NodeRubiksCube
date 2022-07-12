@@ -1,0 +1,20 @@
+{
+  "name": "noderubikscube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "NodeRubiksCube"
+  },
+  "keywords": [
+    "game",
+    "toy"
+  ],
+  "author": "Phillip Galbraith",
+  "license": "MIT"
+}
