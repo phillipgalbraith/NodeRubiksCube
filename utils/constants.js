@@ -4,7 +4,7 @@ export const initialCube = [
     ["blue","blue","blue","blue","blue","blue","blue","blue","blue"], //front:  0
     ["red","red","red","red","red","red","red","red","red"], //left: 1
     ["green","green","green","green","green","green","green","green","green"], //   back: 2 
-    ["yellow","yellow","yellow","yellow","yellow","yellow","yellow","yellow","yellow"], // right: 3
-    ["orange","orange","orange","orange","orange","orange","orange","orange","orange"], //top:  4
+    ["orange","orange","orange","orange","orange","orange","orange","orange","orange"], //right:  3
+    ["yellow","yellow","yellow","yellow","yellow","yellow","yellow","yellow","yellow"], // top: 4
     ["white","white","white","white","white","white","white","white","white"], //bottom:  5
 ];
