@@ -1,25 +1,26 @@
 
 import { initialCube } from './utils/constants.js';
-import { 
-    rotateTopRowLeft,
-    rotateMiddleRowLeft,
-    rotateBottomRowLeft } from './modules/RotateLeft.js';
-import { 
-    rotateTopRowRight,
-    rotateMiddleRowRight,
-    rotateBottomRowRight
- } from './modules/RotateRight.js';
 
+import { 
+    rotateTopRow,
+    rotateMiddleRow,
+    rotateBottomRow
+ } from './rotate/rows.js';
+
+ import { 
+    rotateLeftRowUp,
+    rotateLeftRowDown
+ } from './rotate/columns';
 
 const rCube = []
 initialCube.forEach(e => rCube.push([ ...e ]))
-console.log(1,rCube)
+ console.log(1,rCube)
 
-rotateBottomRowRight(rCube)
-console.log(2,rCube)
+rotateBottomRow(rCube, "right")
+ console.log(2,rCube)
 
-rotateMiddleRowRight(rCube)
-console.log(3,rCube)
+rotateMiddleRow(rCube, "right")
+ console.log(3,rCube)
 
-rotateTopRowRight(rCube)
-console.log(4,rCube)
+rotateTopRow(rCube, "right")
+ console.log(4,rCube)
