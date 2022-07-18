@@ -8,25 +8,25 @@ import {
  } from './rotate/rows.js';
 
  import { 
-    rotateLeftColumnUp,
-    rotateLeftColumnDown
+    rotateColumnUp,
+    rotateColumnDown
  } from './rotate/columns.js';
 
 const rCube = []
 initialCube.forEach(e => rCube.push([ ...e ]))
-// console.log(1,rCube)
+console.log(1, rCube)
 
-rotateBottomRow(rCube, "right")
-// console.log(2,rCube)
+// rotateBottomRow(rCube, "right")
+// // console.log(2,rCube)
 
-rotateMiddleRow(rCube, "right")
-// console.log(3,rCube)
+// rotateMiddleRow(rCube, "right")
+// // console.log(3,rCube)
 
-rotateTopRow(rCube, "right")
- console.log(4,rCube)
+// rotateTopRow(rCube, "right")
+//  console.log(4,rCube)
 
-rotateLeftColumnUp(rCube, "right")
-console.log(5,rCube)
+ rotateColumnUp(rCube, "left")
+ console.log(5, rCube)
 
-rotateLeftColumnDown(rCube, "right")
-console.log(6,rCube)
+rotateColumnDown(rCube, "right")
+console.log(6, rCube)
